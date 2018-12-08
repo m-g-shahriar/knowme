@@ -1,0 +1,636 @@
+*{
+  margin: 0;
+  padding: 0;
+  top:0;
+  left: 0;
+}
+
+
+
+
+.headerContainer{
+
+/* NOTE:   background: #212121;*/
+background: url(images/newPlainBanner1.jpg) center center;
+  /* NOTE:  background-size: cover; */
+	background-size:cover;
+  height: 500px;
+  /* animation: csAm 2s; */
+
+}
+
+.headerContainer img{
+  margin: 0 auto;
+  
+  /*  width: 100%; animation: skillsAnimation 5s;*/
+  
+ 
+  text-align: center;
+  
+}
+
+
+.headerContainer h1{
+  display: none;
+margin-top: 10%;
+  font-family: shariarFont;
+  font-size: 12rem;
+  text-align: center;
+  text-shadow: 2px 4px 3px #3f3f3f;
+  color: white;
+}
+.headerContainer span:nth-child(1){
+  color: #464889;
+  animation: csAm 2s;
+}
+
+@keyframes csAm {
+
+  0%{
+    opacity: 0;
+  }
+  50&{
+    opacity: .5;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
+
+.headerContainer span:nth-child(2){
+  color: white;
+  animation: csAm 6s;
+}
+.headerContainer span:nth-child(3){
+  color: #c12525;
+  animation: csAm 8s;
+}
+.headerContainer span:nth-child(4){
+  color: #3ca365;
+  animation: csAm 10s;
+}
+.headerContainer span:nth-child(5){
+  color: #70c0d1;
+  animation: csAm 12s;
+}
+.headerContainer span:nth-child(6){
+  color: #ca4289;
+  animation: csAm 13s;
+}
+.headerContainer span:nth-child(7){
+  color: #eddc67;
+  animation: csAm 16s;
+}
+.headerContainer span:nth-child(8){
+  color: white;
+  animation: csAm 17s;
+}
+.headerContainer span:nth-child(9){
+  color: #9554d1;
+  animation: csAm 18s;
+}
+.headerContainer span:nth-child(10){
+  color: #64b5e4;
+  animation: csAm 19s;
+}
+.headerContainer span:nth-child(11){
+  color: #64b5e4;
+  animation: csAm 20s;
+}
+
+
+
+
+.workContainer{
+  margin: 0 auto;
+  text-align: center;
+  font-family: shariarFont;
+  color: black;
+  margin-bottom: 60px;
+}
+
+          @font-face {
+            font-family: shariarFont;
+            src: url(font/ufonts.com_avant-g-bold.ttf);
+          }
+
+.workContainer img{
+
+}
+
+.skillsBar{
+  border-right: 4px solid #3ca75d;
+  border-radius: 1%;
+}
+.textSk{
+  text-align: right;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: black;
+}
+
+.resume{
+
+  text-align: center;
+  margin: 0 auto;
+}
+.txtR{
+  font-family: shariarFont;
+  color: white;
+  padding: 10px;
+  font-size: 4rem;
+  background: black;
+  width: 420px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.resume p{
+  padding: 45px;
+  font-size: 25px;
+
+
+}
+
+.cutomButton{
+
+  font-family: shariarFont;
+
+  padding: 14px;
+
+  border: 1px solid black;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.cutomButton:hover{
+  background: black;
+  color: white;
+  text-decoration: none;
+  cursor: nesw-resize;
+}
+.cutomButton1{
+	background:#bc1818;
+  font-family: shariarFont;
+
+  padding: 14px;
+
+  border: 1px solid white;
+  margin-left:15%;
+  
+  border-radius:15px;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+.cutomButton2{
+	
+  font-family: shariarFont;
+
+  padding: 14px;
+
+  border: 1px solid white;
+  margin-left:2%;
+  
+  border-radius:15px;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.cutomButton1:hover{
+  background: black;
+  color: white;
+  text-decoration: none;
+  cursor: nesw-resize;
+}
+
+.nullResume{
+  border-bottom: 2px solid black;
+}
+
+
+.myPicSection img{
+  margin-top: 68px;
+  width: 200px;
+  height: 200px;
+  float: right;
+  text-align: right;
+
+}
+.coverLetter h1{
+  font-family: shariarFont;
+  margin-left: -55px;
+}
+
+
+@font-face {
+  font-family: shariarFont;
+  src: url(font/ufonts.com_avant-g-bold.ttf);
+}
+
+/* NOTE: Skills bar ratio */
+.skillsBar{
+
+}
+
+.webSkills{
+  width: 400px;
+  height: 40px;
+  background-color: #558b4b;
+  margin:0 auto;text-align:center;
+
+}
+.actualRatio{
+    height: 40px;
+    color: white;
+
+    width: 300px;
+    background-color: #bd2151;
+    animation: skillsAnimation 2s;
+}
+.actualRatio h5{
+  font-size: 19px;
+  padding: 10px;
+  text-align: center;
+}
+
+.seoSkills{
+  width: 400px;
+  height: 40px;
+  background-color: #558b4b;
+  margin:0 auto;text-align:center;
+
+}
+.seoSkills .actualRatio{
+  height: 40px;
+  color: white;
+
+  width: 350px;
+  background-color: #c14027;
+  animation: skillsAnimation 4s;
+}
+
+.androidSkills .actualRatio{
+  height: 40px;
+  color: white;
+
+  width: 250px;
+  background-color: #1e2361;
+  animation: skillsAnimation 6s;
+}
+.androidSkills{
+  width: 400px;
+  height: 40px;
+  background-color: #558b4b;
+  margin:0 auto;text-align:center;
+
+}
+.graphicsSkills{
+  width: 400px;
+  height: 40px;
+  background-color: #558b4b;
+  margin:0 auto;text-align:center;
+
+}
+
+.graphicsSkills .actualRatio{
+  height: 40px;
+  color: white;
+
+
+  width: 320px;
+  background-color: #2d7673;
+  animation: skillsAnimation 8s;
+}
+
+@keyframes skillsAnimation {
+
+  0%{
+    width: 0%;
+  }
+  20%{
+    width: 25%;
+  }
+  50%{
+    width: 65%;
+  }
+  100%{
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* NOTE: Web galery */
+.webFirst0{
+
+  background: url(images/web/Capture.PNG);
+background-size: cover;
+  width: 100%;
+  height: 200px;
+
+
+}
+.webFirst1{
+
+  background: url(images/web/Capture2.PNG);
+background-size: cover;
+  width: 100%;
+  height: 200px;
+
+
+}
+.webFirst2{
+
+  background: url(images/web/projectFinal_m-g-shahriar.PNG);
+background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+.webFirst0:hover,.webFirst1:hover,.webFirst2:hover{
+  opacity: .8;
+}
+
+.customButton{
+
+  font-family: shariarFont;
+
+  padding: 14px;
+
+  border: 1px solid white;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+.customButton:hover{
+
+}
+
+/* NOTE: Android css */
+.box{
+    margin-top:150px;
+    background : transparent;
+
+    position : relative;
+    transform : rotate(-30deg) skew(25deg) scale(.8);
+    transition : 0.5s;
+
+    }
+    .box img {
+              position : absolute;
+              width:100%;
+               transition : 0.5s;
+               height: 190px;
+
+            }
+            .box:hover img:nth-child(3){
+                          transform:translate(100px,-100px);
+                          opacity:1;
+                        }
+                        .box:hover img:nth-child(2){
+                          transform:translate(80px,-90px);
+                          opacity:.6;
+                        }
+                        .box:hover img:nth-child(1){
+                          transform:translate(60px,-60px);
+                          opacity:.4;
+                        }
+
+
+
+/* NOTE: Tools css */
+
+.toolShead{
+  font-family: shariarFont;
+  color: white;
+}
+
+.toolsFont{
+    font-family: shariarFont;
+    color: black;
+
+}
+
+.toolsFont p{
+
+    color: white;
+
+}
+
+
+
+
+
+
+
+          /* NOTE: Socail media */
+
+
+                                    .fa {
+                                    padding: 20px;
+                                    font-size: 30px;
+                                    width: 100px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    margin: 5px 2px;
+                                    }
+
+                                    .fa:hover {
+                                    opacity: 0.7;
+                                    }
+
+                                    .fa-facebook {
+                                    background: #3B5998;
+                                    color: white;
+                                    }
+
+                                    .fa-twitter {
+                                    background: #55ACEE;
+                                    color: white;
+                                    }
+
+                                    .fa-google {
+                                    background: #dd4b39;
+                                    color: white;
+                                    }
+
+                                    .fa-linkedin {
+                                    background: #007bb5;
+                                    color: white;
+                                    }
+
+                                    .fa-youtube {
+                                    background: #bb0000;
+                                    color: white;
+                                    }
+
+                                    .fa-instagram {
+                                    background: #125688;
+                                    color: white;
+                                    }
+
+.boxFoter{
+  width:350px;height:500px;border:2px solid white;margin:0 auto;text-align:center;box-shadow:2px 2px blue;
+}
+.boxFoter h1{
+  font-family:shariarFont;font-size:8rem;color:white
+}
+
+.socialRight{
+	margin-top:10%;
+}
+
+
+/* NOTE: Mobile */
+@media (max-width:720PX) {
+
+  .headerContainer{
+
+     background: url(images/newPlainBanner1.jpg) center center;
+
+		width:100%;
+
+    background-size: cover;
+	
+    height: 250px;
+
+  }
+
+.headerContainer img{
+	width : 100%;
+	margin-left:-10%;
+	
+}
+
+    .headerContainer h1{
+      display:block;
+          font-size: 25px;
+          margin-top:-1px;
+		  
+
+    }
+	.headerButton{
+				visibility:hidden;
+	}
+
+
+    .workContainer img{
+        width: 100%;
+        height: 70px;
+    }
+
+    .skillsBar h1{
+      font-size: 25px;
+    }
+
+    .webSkills{
+      width: 100%;
+      height: 40px;
+
+
+    }
+    .actualRatio{
+        height: 40px;
+        color: white;
+
+        width: 69%;
+    }
+
+    .seoSkills{
+      width: 100%;
+      height: 40px;
+
+    }
+    .seoSkills .actualRatio{
+
+      width: 75%;
+
+    }
+    .androidSkills{
+      width: 100%;
+      height: 40px;
+
+    }
+    .androidSkills .actualRatio{
+
+      width: 65%;
+
+    }
+
+    .graphicsSkills{
+      width: 100%;
+      height: 40px;
+
+    }
+    .graphicsSkills .actualRatio{
+
+      width: 72%;
+
+    }
+
+    .detailsSk h1{
+      font-size: 25px;
+
+      border-bottom: 1px solid black;
+    }
+
+    .txtR{
+
+      font-size: 25px;
+      background: black;
+      width: 90%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .textSk span{
+      background:black;color:white;
+    }
+
+    .myPicSection img{
+      margin-top: 28px;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      text-align: center;
+      float: none;
+    }
+    .myPicSection{
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .coverLetter h1 {
+
+    font-family: shariarFont;
+    margin-left: 0px;
+    font-size: 23px;
+
+}
+.smallBox{
+  width: 65%;
+
+}
+.boxFoter{
+  width:80%;height:290px;border:2px solid white;margin:0 auto;text-align:center;box-shadow:2px 2px blue;
+}
+.boxFoter h1{
+  font-family:shariarFont;font-size:58px;color:white
+}
+.skillsBar{
+  border-right: 0px solid #3ca75d;
+  border-radius: 0%;
+}
+.socialRight{
+	margin-top:0%;
+}
+
+}
